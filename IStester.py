@@ -39,8 +39,6 @@ def testThread():
     thread.start()
 
 def exit():
-    import os
-    os.system("taskkill /f /im IStester.exe")
     main.destroy()
 
 main = Tk()
